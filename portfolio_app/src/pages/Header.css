@@ -1,0 +1,15 @@
+#header {
+    height: 100vh;
+}
+
+#hamberger {
+    background-color: black;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#hamberger > div {
+    float: left;
+    margin-right: 50px;
+}
