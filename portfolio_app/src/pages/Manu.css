@@ -1,0 +1,45 @@
+#hamberger {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#hamberger > div {
+    display: none;
+}
+
+#hamberger > * {
+    font-size: 20px;
+}
+
+#hamberger:hover {
+    border-radius: 5px;
+    animation: parent_slide 0.5s;
+    background-color: black;
+}
+
+@keyframes parent_slide {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+#hamberger:hover > * {
+    float: left;
+    display: block;
+    animation: children_slide 1s;
+    margin-right: 100px;
+    color: white;
+}
+
+@keyframes children_slide {
+    0% {
+        margin-right: 0px;
+    }
+    100% {
+        margin-right: 100px;
+    }
+}

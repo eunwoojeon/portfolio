@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #222b33, #12171b);
+  display: flex;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.snow_flake {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -8px;
+}
+
+@keyframes snow_falling {
+  0% {}
+  100% {
+      transform: translateY(90vh);
+      opacity: 0;
+  }
+}
+
+.raindrop {
+  width: 2px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: -30px;
+}
+
+@keyframes raining {
+  0% {}
+  100% {
+      transform: translateY(90vh);
+      /* opacity: 0; */
+  }
 }
