@@ -1,4 +1,36 @@
 #Carear {
-    height: 100vh;
+    height: 30vh;
+    width: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#Carear > div {
+    width: 50vw;
+    min-width: 600px;
+}
+
+.carear-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.carear-list > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-list > div {
+    display: flex;
+    justify-content: space-between;
 }

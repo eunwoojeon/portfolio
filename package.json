@@ -7,8 +7,16 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunwoojeon/portfolio.git"
+  },
   "author": "Eunwoo Jeon",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunwoojeon/portfolio/issues"
+  },
+  "homepage": "https://github.com/eunwoojeon/portfolio#readme",
   "dependencies": {
     "express": "^4.19.2"
   }

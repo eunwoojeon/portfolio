@@ -2,11 +2,10 @@
     height: 100vh;
     color: white;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 #header > div {
-    margin: auto;
     font-size: 10vh;
     font-family: serif;
 }

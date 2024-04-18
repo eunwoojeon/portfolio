@@ -5,13 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to bottom, #222b33, #12171b);
-  display: flex;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  background: linear-gradient(to bottom, #222b33, #12171b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .snow_flake {

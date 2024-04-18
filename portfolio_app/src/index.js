@@ -28,7 +28,7 @@ reportWebVitals();
 
 
 
-//
+// ##region weather
 const body = document.querySelector("body");
 const MIN_DURATION = 10;
 function makeSnowFlake() {
@@ -38,7 +38,7 @@ function makeSnowFlake() {
   const duration = Math.random() * 20 + MIN_DURATION;
 
   snowFlake.classList.add("snow_flake");
-  snowFlake.style.left = `${Math.random() * window.screen.width}px`; // 고쳐야
+  snowFlake.style.left = `${Math.random() * 100}vw`; // 고쳐야
   snowFlake.style.opacity = opacity;
   snowFlake.style.animation = `snow_falling ${duration}s linear ${delay}s`
   console.log(snowFlake.style.animation)
